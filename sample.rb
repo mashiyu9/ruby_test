@@ -1,7 +1,8 @@
 class Player
   def hand
+    puts "出す手を選んでください 0 : グー 1 : チョキ, 2 : パー"
     while true 
-      puts "出す手を選んでください 0 : グー 1 : チョキ, 2 : パー"
+      
       my_hand = gets.chomp
       p my_hand
       if (my_hand == "0") || (my_hand == "1") || (my_hand == "2")
